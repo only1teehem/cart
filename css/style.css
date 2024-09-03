@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.container{
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    width: 500px;
+    height: 400px;
+    color: black;
+    display: flex;
+    border-radius: 5px;
+}
+img{
+    height: 400px;
+    width: 250px;
+    border-left: 10px;
+
+}
+
+.writeup{
+    padding: 20px;
+}
+
+.firt {
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+}
+
+.writeup h1{
+    font-family: "Fraunces", serif;
+    padding: 0%;
+    padding-top: 20px;
+    padding-bottom : 20px;
+}
+
+.writeup p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+
+.carrt{
+    background-color: rgb(18, 174, 122);
+    display: flex;
+    justify-content: center;
+    max-width: 150px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.amount{
+    padding-top: 10px;
+    display: flex;
+}
+
+
+.amount h5{
+    font-family: "Fraunces", serif;
+    font-size: 30px;
+    margin-right: 10px;
+    color: rgb(18, 174, 122);
+
+}
+
+.amount p{
+    font-family: "Fraunces", serif;
+    font-size: 10px;
+    margin-top: 10px;
+    text-decoration: line-through;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.carrt:hover{
+    background-color: rgb(14, 55, 41);
+}
+
+@media (max-width: 600px) {
+    img{
+        width: 400px;
+        height: 300px;
+    }
+    .container {
+      flex-direction: column;
+      width: 420px;
+      height: 650px;
+      padding: 10px;
+      
+      
+
+    }
+  }
